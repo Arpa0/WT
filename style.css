@@ -1,0 +1,144 @@
+
+
+
+.form-container {
+  position: absolute;
+  width: 50rem;
+  height: 40rem;
+  left: 85px;
+  right: 45px;
+  top: 330px;
+
+  background: #C4E6FF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.label {
+   color: #044F2B;
+   left:200px;
+   
+} 
+textarea{
+  width: 70px;
+  left: 200px;
+
+}
+.input-field {
+  width: 300px;
+  border-radius: 120px;
+  padding: 10px;
+  font-size: 14px;
+   
+  font-weight: bolder;
+  background-color:#D9D9D9;
+  border: #044F2B 1px solid;
+  left:200px;
+  margin: 20px 5px 10px 20px;
+  left: 60px;
+
+}
+.message{
+  text-align: center;
+  left: 200px;
+  left:200px;
+}
+
+
+#form_btn1 {
+  width: 140px;
+  left: 500px;
+  padding: 10px;
+  font-size: 14px;
+   color: white; 
+  font-weight: bolder;
+  background-color: #044F2B;
+  border: #044F2B 1px solid;
+  left:200px;
+  margin: 50px 20px 20px 300px;
+  left: 60px;
+}
+.info {
+  font-size: .8em;
+  color: #e66262;
+  letter-spacing: 2px;
+  padding-left: 5px;
+  left:200px;
+}
+
+.row {
+  margin: 18px 0;
+  display: flex;
+  left:200px;
+  
+}
+
+.right-margin {
+  margin-right: 25px;
+  left:200px;
+}
+
+.inline-block {
+  display: inline-block;
+  left:200px;
+}
+
+.input-field-radio {
+  width: 350px;
+  margin-top: 5px;
+  left:200px;
+}
+
+
+
+.text-center {
+  text-align: center;
+  left:200px;
+}
+
+@media only screen and (max-width: 760px) {
+  .form-container {
+      width: 500px;
+      left:200px;
+  }
+  .row {
+      margin: 18px 0;
+      display: flex;
+      left:200px;
+  }
+  .input-field {
+      width: 200px;
+      left:200px;
+  }
+  .input-field-radio {
+      width: 210px;
+      left:200px;
+  }
+  .btn-submit {
+      width: 200px;
+      left:200px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .form-container {
+      width: 300px;
+      left:200px;
+  }
+  .row {
+      margin: 10px;
+      display: inline-block;
+      left:200px;
+  }
+  .input-field {
+      width: 280px;
+      left:200px;
+  }
+  .btn-submit {
+      width: 280px;
+      left:200px;
+  }
+  .responsive {
+      margin-top: 20px;
+       left:200px;
+  }
+}

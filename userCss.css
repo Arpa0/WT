@@ -1,0 +1,625 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block
+}
+
+.navbar-navbar {
+  Width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
+#Buplogo {
+  /*   position: absolute;*/
+  width: 50px;
+  height: 50px;
+  left: 5px;
+  top: -0px;
+
+}
+
+#dropdn {
+  font-family: 'Istok Web';
+  font-size: 18px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #044F2B;
+  font-variation-settings: 'slnt' -1;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sidenav {
+  height: 100%;
+  width: 00;
+  position: fixed;
+  z-index: 1;
+  top: 5;
+  right: 0;
+  background-color: #B8E2FA;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/*logo*/
+.library_logo img {
+  width: 200px;
+  height: 200px;
+  left: 36px;
+  top: 60px;
+  position: absolute;
+  border-radius: 100px;
+}
+
+/*search*/
+.search {
+  border: 1px solid rgb(13, 196, 120);
+  margin-bottom: auto;
+  margin-top: 20rem;
+  height: 4rem;
+  background-color: #fff;
+  padding: 0rem;
+  left: 50rem;
+  position: absolute;
+  width: 40rem;
+  top: -5rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search-input {
+
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top: 5px;
+  caret-color: transparent;
+  line-height: 0px;
+  transition: width 0.4s linear;
+
+
+
+}
+
+.search .search-input {
+  padding: 3px;
+  width: 350px;
+  caret-color: #B8E2FA;
+  font-size: 21px;
+  font-weight: 300;
+  color: rgb(2, 37, 15);
+  transition: width 0.4s linear;
+}
+
+.search:hover>.search-icon {
+  background: #CBEED3;
+  color: #fff;
+}
+
+.search-icon {
+
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  background-color: #B8E2FA;
+  position: relative
+}
+
+/*book section*/
+.trending {
+  position: absolute;
+  background-color: #B8E2FA;
+  width: 126rem;
+  height: 5rem;
+  padding: 10px;
+  left: 45px;
+  right: 45px;
+  top: 59px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #044F2B;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Istok Web;
+  margin-top: 150px;
+}
+
+.section_book_div {
+  position: absolute;
+  width: 80%;
+  height: 180%;
+  left: 10%;
+  top: 50%;
+  z-index: 90;
+  background: #C4E6FF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#books {
+  position: absolute;
+  height: 282px;
+  left: 120px;
+  top: 5rem;
+}
+
+#img1 {
+  padding: 20px;
+  padding-top: 30px;
+  height: 33rem;
+  width: 25rem;
+}
+
+#button_div {
+  height: 1%;
+  width: 60px;
+  padding-left: 30%;
+}
+
+#button_in {
+  padding: 10px;
+  left: 5px
+}
+
+.library_logo_other img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: 500px;
+  right: 50px;
+  top: 60px;
+}
+
+/*user account pg*/
+.breadcrumb {
+  position: absolute;
+  background-color: #B8E2FA;
+  width: 90%;
+  height: 10%;
+  padding: 1%;
+  left: 65px;
+  right: 45px;
+  top: 59px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #044F2B;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Istok Web;
+  margin-top: 150px;
+}
+
+.back_btn {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #044F2B;
+  font-size: 24px;
+  position: relative;
+  top: -40px;
+  left: 40px;
+}
+
+.acc_info {
+  align-self: center;
+  position: absolute;
+  top: 30rem;
+  color: #044F2B;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+  left: 50px;
+}
+
+.acc_div1 {
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  left: 100px;
+  top: 60%;
+  z-index: 90;
+  background: #C4E6FF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form_format {
+  position: absolute;
+  left: 270px;
+  top: 10px;
+  padding: 10px;
+}
+
+#form_text1 {
+  top: 30px;
+  color: #044F2B;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+#form_field1 {
+  left: 100px;
+  top: 30px;
+}
+
+#form_text2 {
+  top: 35px;
+  color: #044F2B;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+#form_field2 {
+  left: 100px;
+  top: 55px;
+}
+
+#form_text3 {
+
+  top: 40px;
+  color: #044F2B;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+#form_field3 {
+
+  left: 100px;
+  top: 40px;
+}
+
+#form_btn1 {
+  position: absolute;
+  top: 230px;
+  left: 100px;
+}
+
+#form_btn2 {
+  position: absolute;
+  top: 230px;
+  left: 200px;
+}
+
+/*secode form*/
+#helpPass {
+  position: absolute;
+  top: 1rem;
+  left: 5rem;
+  color: #a4a4a4;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+.pass_info {
+  align-self: center;
+  position: absolute;
+  top: 70rem;
+  color: #044F2B;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+  left: 50px;
+}
+
+.acc_div2 {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  left: 100px;
+  top: 75rem;
+  z-index: 90;
+  background: #C4E6FF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form2_format {
+  position: absolute;
+  left: 270px;
+  top: 2rem;
+  padding: 10px;
+}
+
+#form2_btn1 {
+  position: absolute;
+  top: 28rem;
+  left: 100px;
+}
+
+#form2_btn2 {
+  position: absolute;
+  top: 28rem;
+  left: 200px;
+}
+
+#form2_text1 {
+  top: 30px;
+  color: #044F2B;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+#form2_field1 {
+  left: 180px;
+
+}
+
+#form2_text2 {
+  top: 35px;
+  color: #044F2B;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+#form2_field2 {
+  left: 180px;
+}
+
+#form2_text3 {
+  top: 40px;
+  color: #044F2B;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+#form2_field3 {
+  left: 180px;
+}
+
+.col-sm-2 {
+  color: #044F2B;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+
+
+
+
+
+/*Mybooks page css*/
+.mybook_div {
+  position: absolute;
+  width: 100rem;
+  height: 80rem;
+  left: 150px;
+  top: 50%;
+  z-index: 90;
+  background: #C4E6FF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#cart_btn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  top: 30px;
+  left: 85rem;
+  position: relative;
+}
+
+.mybook_table {
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+  padding: 5px;
+
+  color: #044F2B;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+  background-color: #cce4fb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mybook_table tr th {
+  text-align: center;
+  color: #013b25;
+  padding: 10px;
+  border: 1px solid;
+  border-color: #fff;
+  background-color: #52b3ef;
+}
+
+.mybook_table tr td {
+  padding: 10px;
+  border: 1px solid;
+  border-color: #fff;
+}
+
+#num_field {
+  width: 50px;
+  text-align: center;
+}
+
+/*pay fee*/
+.payfee_int {
+  position: absolute;
+  left: 5rem;
+  top: 2rem;
+  color: #ff0000ae;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+.payfee_table {
+  position: absolute;
+  top: 8rem;
+  left: 10rem;
+  padding: 10px;
+  border: #f3f6f8 2px solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #044F2B;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+  border-collapse: separate;
+  border-spacing: 5px 15px;
+}
+
+.payfee_table tr th {
+  border: #52b3ef 2px solid;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#pay_btn {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  top: 40rem;
+  padding: 10px;
+  left: 30rem;
+  color: #f3f7fb;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+  border-radius: 50rem;
+  background-color: rgb(77, 181, 222);
+  border-color: rgb(30, 139, 183);
+}
+
+/*transaction*/
+.trans_div {
+  position: absolute;
+  width: 100rem;
+  height: 400px;
+  left: 150px;
+  top: 50%;
+  z-index: 90;
+  background: #C4E6FF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.trans_table {
+  position: absolute;
+  top: 8rem;
+  left: 15rem;
+  padding: 10px;
+  border: #93d3fd 1px solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #044F2B;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+  border-collapse: separate;
+  border-spacing: 5px 15px;
+}
+
+.trans_table tr th {
+  border: #52b3ef 2px solid;
+  text-align: center;
+  padding: 10px;
+}
+
+#trans_caption {
+  padding-top: 20px;
+  text-align: center;
+  color: #044F2B;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+
+.trans_grp {
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  padding: 10px;
+}
+
+.trans_div div{
+  float: right;
+  padding: 10px;
+  color: #044F2B;
+}
+
+.trans_div a{
+  color: #044F2B;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+.trans_div a:hover{
+  color: #29d984;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Inria Serif';
+}
+/*footer*/
+footer {
+  position: relative;
+  top: 1500px;
+  width: 100%;
+  background-color: skyblue;
+}
+
+#footerText {
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+}

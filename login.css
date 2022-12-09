@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/Assets/Vector.png);
+
+}
+* {box-sizing: border-box;}
+
+.bg{
+  background-color: #fff;
+  background-image: url("/Assets/vector\ books.png");
+  width: 30%;
+  padding: 50px 70px;
+  position: relative;
+  left: 36%;
+  border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 3px 15px 1px #b1b1b1;
+  
+}
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+
+.signup-btn {
+    text-align: center;
+    border-radius: 40px;
+    
+  }
+
+
+.icon {
+  padding: 8px;
+  font-size: large;
+  background: green;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid green;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: green;
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.login{
+  
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+#cross{
+  float: right;
+  width: 5%;
+  height: auto;
+}
