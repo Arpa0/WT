@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUP Library Booking System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="admin_home.css">
+    <script src="https://kit.fontawesome.com/b45304ffc2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+	
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!-- Popper Js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=" crossorigin="anonymous"></script>
+
+<!-- Bootstrap CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<!-- Hierarchy Select CSS -->
+<link rel="stylesheet" href="css/hierarchy-select.min.css">
+
+<!-- Hierarchy Select Js -->
+<script src="hierarchy-select.min.js"></script>
+
+
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <div class="logo">
+            <a href="https://bup.edu.bd/" target="_blank">
+                <img src="/image/bb.png" id="Buplogo">
+            </a>
+        </div>
+        
+        <div class="loginout">
+            <img src="images/login.png" ></a>
+                <h1>Admin</h1>
+                <div class="drop"><a href=""><img src="images/droparrow.png" ></a></div>
+        </div>
+        <div3 class="bup"><p>Bangladesh University Of Professionals</p></div3>
+    <div class="topnav">
+        <a class="active" href="admin_home.html">Home</a>
+        
+        <a href="#contact">Protocols</a>
+        <a href="books.html">Books</a>
+        <div class="openBtn" onclick="openSearch()">View User</div>
+      </div>
+      <div class="library_logo">
+        <img src="images/bup_library_logo.png" alt="">
+      </div>
+      <div6 class="sear">
+        <div class="d-flex justify-content-center h-100">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="search " name="">
+                <a href="#" class="search-icon">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+        </div>
+    </div6>
+    <div class="drop">
+       
+    <div class="dropdown hierarchy-select" id="example">
+        <button type="button" class="btn btn-secondary dropdown-toggle" id="example-two-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Library Catalogue</button>
+        <div class="dropdown-menu" aria-labelledby="example-two-button">
+            
+            <div class="hs-menu-inner">
+                <a class="dropdown-item" data-value="1" href="#">Title</a>
+                <a class="dropdown-item" data-value="2" href="#">Author</a>
+                <a class="dropdown-item" data-value="3" href="#">Subject</a>
+                <a class="dropdown-item" data-value="4" href="#">ISBN</a>
+                <a class="dropdown-item" data-value="5" href="#">ISSN</a>
+                <a class="dropdown-item" data-value="6" href="#">SERIES</a>
+               
+            </div>
+        </div>
+        
+        <input class="d-none" name="example_two" readonly="readonly" aria-hidden="true" type="text"/>
+    </div>
+</div>
+<section class="trending">
+    <p>Trending</p>
+</section>
+
+
+
+    <section class="section_book">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book1.png" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="borrow.html" role="button">Borrow</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book2.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="borrow.html" role="button">Borrow</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book3.png" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="borrow.html" role="button">Borrow</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book4.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="borrow.html" role="button">Borrow</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book5.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="borrow.css" role="button">Borrow</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book6.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="book unavailable.html" role="button">Place
+                            Hold</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book7.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="book unavailable.html" role="button">Place
+                            Hold</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book8.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="borrow.html" role="button">Borrow</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book9.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="borrow.html" role="button">Borrow</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book10.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="borrow.html" role="button">Borrow</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book11.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="book unavailable.html" role="button">Place
+                            Hold</a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-3 col-xxl-4"><img src="images/book12.jpg" alt="" id="img1">
+                    <div class="row" id="button_div"><a class="btn btn-primary" href="book unavailable.html" role="button">Place
+                            Hold</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close ">×</span>
+        <div class="overlay-content">
+          <form action="viewUser.html">
+            <input type="text" placeholder="Search User ID" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+      
+      <script>
+        function openSearch() {
+          document.getElementById("myOverlay").style.display = "block";
+         
+          
+        }
+        
+        
+        function closeSearch() {
+          document.getElementById("myOverlay").style.display = "none";
+        }
+        </script>      
+      </div>
+                
+    
+
+    </header>
+    <section>
+
+    </section>
+    <footer>
+
+        <p id="footerText">
+            Copyright © 2022 | Bangladesh University of Professionals Library
+          </p>
+    </footer>
+</div>
+</body>
+</html>
